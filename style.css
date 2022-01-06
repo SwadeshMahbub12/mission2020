@@ -1,0 +1,141 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 50px;
+}
+h3 {
+  font-size: 40px;
+}
+.blue-violet {
+  color: blueviolet;
+}
+#introduction {
+  display: flex;
+  padding: 30px 20px 30px;
+}
+.profileImage {
+  width: 400px;
+  height: 50%;
+  margin: auto;
+}
+.bannerItems {
+  padding: 30px 15px 30px 15px;
+  max-width: 50%;
+  margin: auto;
+}
+.tagline {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+.Bbutton {
+  height: 30px;
+  background-color: rgb(103, 194, 189);
+}
+
+img {
+  width: 60%;
+  height: 50%;
+}
+
+.subheading {
+  text-align: center;
+}
+
+#myMission {
+  padding: 30px;
+}
+
+#missionItems {
+  box-sizing: border-box;
+  padding: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.missionDesc {
+  margin: auto;
+  width: 350px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: indianred;
+}
+.visionDesc {
+  margin: auto;
+  width: 350px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: darkseagreen;
+}
+.goalsDesc {
+  margin: auto;
+  width: 350px;
+  border-radius: 20px;
+  padding: 15px;
+  background-color: cornflowerblue;
+}
+
+.segment1 {
+  box-sizing: border-box;
+  padding: 90px;
+  display: flex;
+  margin-right: 10px;
+}
+
+.segment1img {
+  box-sizing: border-box;
+  margin: auto;
+  width: 1000px;
+}
+.segmentIntro {
+  box-sizing: border-box;
+  width: 700px;
+}
+
+.segment2 {
+  box-sizing: border-box;
+  padding: 90px;
+  display: flex;
+  margin-right: 10px;
+}
+.segment2img {
+  box-sizing: border-box;
+  margin: auto;
+  size: 600px;
+}
+
+.skill-item {
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-left: 20px;
+  border-radius: 10px;
+}
+#web-dev-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#skill {
+  border-left: 7px solid;
+  border-image: linear-gradient(purple, tomato);
+  border-image-slice: 1;
+}
+.flexible-container {
+  display: flex;
+  margin-bottom: 150px;
+}
+
+footer {
+  padding: 10px;
+  text-align: center;
+  color: crimson;
+  width: 100%;
+  height: 200px;
+  background-color: black;
+}
